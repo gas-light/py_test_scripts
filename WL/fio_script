@@ -1,0 +1,12 @@
+[JESD219]
+direct=1
+rw=write 
+name=first_200G
+verify_dump=1
+bs=4K
+filename=\\.\PHYSICALDRIVE1
+
+
+
+
+full_data":"-bs=%s -rw=write -name=full_data -size=100%% -verify_pattern=%s -do_verify=0" % (Bs_num,Verify_num)

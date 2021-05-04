@@ -1,0 +1,15 @@
+[first]
+direct=1
+rw=write 
+name=first
+verify_dump=1
+iodepth=64
+numjobs=1 
+group_reporting 
+verify_fatal=1 
+do_verify=0
+bs=4K
+filename=\\.\PHYSICALDRIVE1
+size=30%
+offset=0
+verify_pattern=0x7B

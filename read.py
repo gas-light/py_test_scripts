@@ -10,4 +10,4 @@ with open("echo.txt","w+") as file:
     for i in sources_list:
         file.write(i)
         file.write("\n")
-
+ping("What's up")
